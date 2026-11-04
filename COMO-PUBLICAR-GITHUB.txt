@@ -1,0 +1,45 @@
+COMO PUBLICAR NO GITHUB PAGES (para o site não ficar sem estilo)
+
+O problema "fica sem cores e sem imagens" acontece quando as pastas css/ e images/
+NÃO foram enviadas para o repositório.
+
+PASSOS CORRECTOS:
+
+1. Extrai o ficheiro website-bullying-escolar.zip no computador
+
+2. Abre a pasta website-bullying-escolar — dentro deve ter:
+   - index.html
+   - introducao.html
+   - desenvolvimento.html
+   - solucoes.html
+   - galeria.html
+   - recomendacoes.html
+   - pasta css/   (com style.css dentro)
+   - pasta images/ (com as fotos e o logo)
+   - README.md
+
+3. No GitHub, no teu repositório:
+   - Clica em "Add file" → "Upload files"
+   - Arrasta TODOS os ficheiros E as pastas css e images
+   - IMPORTANTE: a estrutura tem de ficar assim no GitHub:
+
+     index.html
+     introducao.html
+     ...
+     css/style.css
+     images/logo-escola.png
+     images/bullying1.jpg
+     ...
+
+4. NÃO cries uma pasta extra por cima. Os HTML devem estar na RAIZ do repositório
+   (ou na pasta docs/ se usares docs no Pages).
+
+5. Settings → Pages → Source: Deploy from branch → branch main → folder / (root)
+   → Save
+
+6. Espera 1–2 minutos e actualiza a página (Ctrl+F5)
+
+Se o repositório se chama por exemplo "bullying-escolar", o link fica:
+https://TEU-USER.github.io/bullying-escolar/
+
+Confirma no GitHub que vês a pasta "css" e a pasta "images" listadas.
